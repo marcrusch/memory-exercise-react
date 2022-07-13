@@ -1,0 +1,31 @@
+.game__player-container {
+    padding: 20px 50px;
+    flex: 1;
+}
+
+.game__player-container-right {
+    float: right;
+    text-align: right;
+}
+
+.game__timer-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.game__header {
+    display: flex;
+}
+
+.game__board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.game__player-container--active {
+    color: #ff0000;
+}
